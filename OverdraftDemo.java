@@ -128,7 +128,7 @@ public class OverdraftDemo {
         }
 
         for (int i = 0; i < RACERS; i++) {
-            racers[i].start();
+        racers[i].start();
         }
         ready.await();
         go.countDown();
